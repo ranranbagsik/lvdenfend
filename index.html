@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d6cb9e98f.js" crossorigin="anonymous"></script>
+    <title>LaVerDefend</title>
+    <link rel="shortcut icon" href="images/lvdefendlogo.ico" type="image/x-icon">
+</head>
+<body>  
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/lvdefendlogo.ico" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#personal">Module</a></li>
+                <li><a href="#academic">DVLopers</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi Welcome!</p>
+            <h1>To<br><span>LaVerDefend</span></h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/p1.pnh.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p>Welcome to LaVerDefend – your dedicated PDF encryption solution brought to you by La Verdad Christian School.\n LaVerDefend is designed to empower our staff members with the tools they need to protect sensitive documents and uphold the security standards of our institution. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Secure PDF')">Secure PDF</p>
+                    <p class="tab-links" onclick="opentab('Protection for privacy')">Protection for privacy</p>
+                    <p class="tab-links" onclick="opentab('Exclusive app for La Verdad Teachers')">Exclusive for LV teachers and staff</p>
+                </div>
+                <div class="tab-contents active-tab" id="Secure PDF">
+                    <ul>
+                        <li><span>🔒</span><br>Limited Password</li>
+                        <p>Only ID students can enter password in a PDF file.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Protection for privacy">
+                    <ul>
+                        <li><span>🔒</span><br>It's a safety application</li>
+                        <p>Only teachers can use this application we build.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Exclusive app for La Verdad Teachers">
+                    <ul>
+                        <li><span>🔒</span><br>Develop by Grade 12 ICT</li>
+                        <p> at La Verdad Christian School</p>
+                </div>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="personal">
+    <div class="container">
+        <h1 class="sub-title">Module</h1>
+        <div class="personal-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>We use Python language to build this software.</p>
+                    <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-lock"></i>
+            <h2>Password</h2>
+                <p>We add a password feedback and format password.</p>
+                    <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-file-pdf"></i>
+            <h2>PyMuPDF</h2>
+                <p>PyMuPDF is a high-performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.</p>
+                    <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+            <h2>GUI</h2>
+                <p>We use tkinter to customize our theme and other widgets of the software.
+                </p>
+                    <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="academic">
+    <div class="container">
+        <h1 class="sub-title">DVLopers</h1>
+        <div class="academic-list">
+            <div class="acad">
+                <img src="images/d3.jpg">
+                <div class="layer">
+                    <h3>Rhannie Rey</h3>
+                    <p>Developer  /Designer / Web Developer</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="acad">
+                <img src="images/d2.jpg">
+                <div class="layer">
+                    <h3>Mel Magdaraog</h3>
+                    <p>Web Developer</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="acad">
+                <img src="images/d1.jpg">
+                <div class="layer">
+                    <h3>Rashleigh Fabian</h3>
+                    <p>Web Developer</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="achievements">
+    <div class="container">
+        <div class="row">
+            <div class="achieve-left">
+                <h1 class="sub-title">Achievements</h1>
+                <div class="social-icons">
+                    <h3>The Languages we learn from this School</h3>
+                    <a href="#"><i class="fa-brands fa-square-js"></i></a>
+                    <a href="#"><i class="fa-brands fa-html5"></i></a>
+                    <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+                </div>
+                <a href="images/LaVerDefend v1.2.4.zip" download class="btn btn2">Download!</a>
+            </div>
+            <div class="achieve-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Yourname" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 12ICT. Made with <i class="fa-solid fa-heart"></i> by DVLopers </p>
+    </div>
+</div>
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+}
+
+</script>
+
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
